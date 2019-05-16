@@ -4,8 +4,8 @@ main:
     url: /About/
   - title: "Data Science"
     url: /Data-Science/
-  - title: "1st Posts"
-    url: /first-day/
+  # - title: "1st Posts"
+  #  url: /first-day/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
