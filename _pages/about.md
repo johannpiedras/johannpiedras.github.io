@@ -1,8 +1,8 @@
 ---
-tittle: "About"
-permalink: /about/
+layout: archive
+permalink: /About/
+title: "About Johann Piedras"
+author_profile: true
 header:
-  image:"type2error.jpg"
+  image: "/images/InstaCrop.jpg"
 ---
-
-  There's a thing or two about me that will found here.
