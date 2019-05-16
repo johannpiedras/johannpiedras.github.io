@@ -1,11 +1,11 @@
 # main links
 main:
   - title: "About"
-    url: /about/
+    url: /About/
   - title: "Data Science"
     url: /Data-Science/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "1st Posts"
+    url: /first-day/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
