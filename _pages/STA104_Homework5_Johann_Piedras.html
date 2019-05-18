@@ -406,7 +406,7 @@ Question 1
 Question 2
 </h2>
 <p><br /> <strong><em>(2a)</em></strong> <br /> <strong> Find the Z values for comparing the row values for each column (i.e, the opinion given they were a doctor vs the opinion given they were a nurse). </strong> <br /></p>
-<pre><code>##        New       None        Old 
+<pre><code>##        New       None        Old
 ## -3.0384338  0.7051181  2.6170452</code></pre>
 <p><br /> <strong><em>(2b)</em></strong> <br /> <strong> Which two groups show the most difference based on (a)? </strong> <br /> The new and old both are really different.</p>
 <p><br /> <strong><em>(2c)</em></strong> <br /> <strong> Use R to find the Tukey inspired cutoff value and report it (using α = 0.05). </strong> <br /></p>
@@ -512,7 +512,7 @@ the.test = chisq.test(zee.table,correct = FALSE)
 eij = the.test$expected
 chi.sq.obs = as.numeric(the.test$statistic)
 
-### The Chi Square Statistics is  
+### The Chi Square Statistics is
 chi.sq.obs
 # Prof = Hair
 # Opinion = Eyes
@@ -534,14 +534,14 @@ all.pjG1 = zee.table[1,]/ni.[1] #all conditional probabilites for row 1
 # Uses 5(new), 3(none), 15(old)
 # then divides that by the total number of values in row 1
 # The results are
-# 0.2173913, 0.1304348 , 0.6521739 
+# 0.2173913, 0.1304348 , 0.6521739
 # these are stored in all.pjG1
 
 all.pjG2= zee.table[2,]/ni.[2] #all conditional probabilites for row 2
 
 all.pbar = n.j/n #all probabilities regardless of group
 all.Zij = c(all.pjG1 - all.pjG2)/sqrt(all.pbar*(1-all.pbar)*(1/ni.[1] + 1/ni.[2])) #The z-test-statistics
-all.Zij 
+all.Zij
 r.perms.cutoff = sapply(1:R,function(i){
   perm.data = procedure
   perm.data$Prof = sample(perm.data$Prof,nrow(perm.data),replace = FALSE)
@@ -556,7 +556,7 @@ r.perms.cutoff = sapply(1:R,function(i){
 })
 alpha = 0.05
 cutoff.q = as.numeric(quantile(r.perms.cutoff,(1-alpha)))
-cutoff.q 
+cutoff.q
 education = read.csv(&quot;education.csv&quot;)
 zee.table.2 = table(education)
 zee.table.2
@@ -619,7 +619,7 @@ r.perms.3 = sapply(1:R,function(i){
   return(chi.sq.i)
 })
 perm.pval.3 = mean(r.perms.3 &gt;= chi.sq.obs.3)
-perm.pval.3 
+perm.pval.3
 infant = read.csv(&quot;infant.csv&quot;, header= TRUE)
 zee.table.4 = table(infant)
 zee.table.4
