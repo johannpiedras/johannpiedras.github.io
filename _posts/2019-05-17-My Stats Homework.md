@@ -1,11 +1,11 @@
 ---
-title: "Non Parametic Homework 4"
-author: "Johann PIedras"
+title: "Nonparametic Homework 4"
+author: "Johann Piedras"
 date: "2019-05-17"
 output: html_document
 
 tags: [Statistics, Non Parametic]
-excerpt: "Figuring out how to post my R/HTML/RMD file onto github"
+excerpt: "Figuring out how to post my R/HTML/RMD file onto git"
 ---
 
 ```{r , echo=FALSE, include=FALSE}
