@@ -19,7 +19,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #040404 url("../img/bg.jpg") top right no-repeat;
+  background: #040404 url("../img/Home_Header.jpg") top right no-repeat;
   background-size: cover;
   left: 0;
   right: 0;
@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h1 {
-  font-size: 48px;
+  font-size: 52px;
   margin: 0;
   padding: 0;
   line-height: 1;
@@ -81,7 +81,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header h2 {
-  font-size: 24px;
+  font-size: 28px;
   margin-top: 20px;
   color: rgba(255, 255, 255, 0.8);
 }
@@ -90,6 +90,22 @@ h1, h2, h3, h4, h5, h6 {
   color: #fff;
   border-bottom: 2px solid #18d26e;
   padding-bottom: 6px;
+}
+
+#header h3 {
+  font-size: 60px;
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+#header h3 span {
+  color: #fff;
+  border-bottom: 2px solid #18d26e;
+  padding-bottom: 6px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
 }
 
 #header img {
@@ -368,13 +384,22 @@ section .container {
 .section-title p {
   margin: 0;
   margin: -15px 0 15px 0;
-  font-size: 36px;
+  font-size:36px;
+  font-weight: 700;
+
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.section-title h4 {
+  margin: 0;
+  margin: -15px 0 15px 0;
+  font-size:36px;
   font-weight: 700;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   color: #fff;
 }
-
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -596,7 +621,7 @@ section .container {
 # Resume
 --------------------------------------------------------------*/
 .resume .resume-title {
-  font-size: 26px;
+  font-size: 36px;
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
